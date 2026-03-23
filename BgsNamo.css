@@ -11,7 +11,7 @@ div.User.container {
 
 /* ===== ตัวอักษรทั้งหมด ===== */
 div.User.container * {
-    color: white !important;
+    color: black !important;
     font-family: 'Raleway', sans-serif !important;
 }
 
