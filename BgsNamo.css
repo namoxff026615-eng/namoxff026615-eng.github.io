@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+/* ===== พื้นหลัง ===== */
+.public-user-profile {
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* ===== ตัวอักษรทั้งหมด ===== */
+.public-user-profile * {
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+/* ===== ชื่อโปรไฟล์ ===== */
+.public-user-profile h1,
+.public-user-profile .username {
+    font-family: 'Cinzel', serif !important;
+    font-size: 2em !important;
+    text-shadow: 0 0 20px rgba(150, 100, 255, 0.8),
+                 0 0 40px rgba(100, 150, 255, 0.5) !important;
+    letter-spacing: 3px !important;
+}
+
+/* ===== กล่องข้อมูลต่างๆ ===== */
+.public-user-profile .card,
+.public-user-profile .ratings,
+.public-user-profile table {
+    background: rgba(0, 0, 20, 0.6) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(150, 100, 255, 0.3) !important;
+    border-radius: 12px !important;
+}
+
+/* ===== Bio ===== */
+.public-user-profile .bio {
+    background: rgba(0, 0, 20, 0.5) !important;
+    border-left: 3px solid rgba(150, 100, 255, 0.8) !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+}
