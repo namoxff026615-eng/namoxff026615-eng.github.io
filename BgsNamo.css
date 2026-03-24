@@ -15,11 +15,17 @@ div.User.container * {
     font-family: 'Raleway', sans-serif !important;
 }
 
+/* ===== ชื่อ username โดยตรง ===== */
+div.User.container span.Player-username {
+    color: white !important;
+}
+
 /* ===== ชื่อโปรไฟล์ ===== */
 div.User.container h1,
 div.User.container h2,
 div.User.container h3 {
     font-family: 'Cinzel', serif !important;
+    color: white !important;
     text-shadow: 0 0 20px rgba(150, 100, 255, 0.8),
                  0 0 40px rgba(100, 150, 255, 0.5) !important;
     letter-spacing: 3px !important;
